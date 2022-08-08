@@ -1,0 +1,97 @@
+.navbar .navbar-brand-wrapper{
+    background: #071f43 !important;
+}
+.navbar .navbar-menu-wrapper {
+    background: #071f43 !important;
+}
+.sidebar{
+    background: #071f43 !important;
+}
+.sidebar .nav .nav-item .nav-link .menu-title {
+    color: white !important;
+}
+.easytab-toggler {
+    display: inline-block;
+    background: #FFF;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    padding: 15px 67px;
+    cursor: pointer;
+  }
+  
+  .easytab-toggler:not(:first-of-type) {
+    margin-left: -4px;
+  }
+  
+  .easytab-toggler:not(.active) {
+    background: rgba(255, 255, 255, .65);
+  }
+  
+  .easytab-toggler:not(.active):hover {
+    background: rgba(255, 255, 255, .85);
+  }
+  
+  .easytab {
+    background: #FFF;
+    padding: 30px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border-top-right-radius: 3px;
+    width: 99.2%;
+    display: none;
+  }
+
+  .accordion {
+    width: 90%;
+    max-width: 1000px;
+    margin: 2rem auto;
+  }
+
+  .accordion-item {
+    padding-top: 0rem !important;
+    padding-bottom: 0rem !important;
+    background-color: #fff;
+    color: #111;
+    margin: 1rem 0;
+    border-radius: 0.5rem;
+    box-shadow: 0 2px 5px 0 rgba(0,0,0,0.25);
+  }
+  .accordion-item-header {
+    padding: 0.5rem 3rem 0.5rem 1rem;
+    min-height: 3.5rem;
+    line-height: 1.25rem;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    position: relative;
+    cursor: pointer;
+  }
+  .accordion-item-header::after {
+    content: "\002B";
+    font-size: 2rem;
+    position: absolute;
+    right: 1rem;
+  }
+  .accordion-item-header.active::after {
+    content: "\2212";
+  }
+  .accordion-item-body {
+    /* max-height: 0; */
+    transition: display 0.2s ease-out;
+    overflow-x: hidden;
+    overflow-y: auto;
+  }
+  .accordion-item-body-content {
+    padding: 1rem;
+    line-height: 1.5rem;
+    border-top: 1px solid;
+    border-image: linear-gradient(to right, transparent, #34495e, transparent) 1;
+  }
+
+  #cat-icon{
+    font-size: 1.0rem !important;
+  }
+  
+  #cat-side{
+    margin-left: -20px;
+  }

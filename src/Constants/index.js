@@ -1,0 +1,276 @@
+// CATEGORY
+export const GET_CATEGORYS = "GET_CATEGORYS";
+
+export const DELETE_CATEGORY = "DELETE_CATEGORY";
+
+export const ADD_CATEGORY = "ADD_CATEGORY";
+
+export const GET_SINGLE_CATEGORY = "GET_SINGLE_CATEGORY";
+
+export const UPDATE_CATEGORY = "UPDATE_CATEGORY";
+
+// SUB CATEGORY
+export const GET_SUB_CATEGORYS = "GET_SUB_CATEGORYS";
+
+export const DELETE_SUB_CATEGORY = "DELETE_CATEGORY";
+
+export const ADD_SUB_CATEGORY = "ADD_SUB_CATEGORY";
+
+export const GET_SINGLE_SUB_CATEGORY = "GET_SINGLE_SUB_CATEGORY";
+
+export const UPDATE_SUB_CATEGORY = "UPDATE_SUB_CATEGORY";
+
+// CITY
+export const GET_CITYS = "GET_CITYS";
+
+export const DELETE_CITY = "DELETE_CITY";
+
+export const ADD_CITY = "ADD_CITY";
+
+export const GET_SINGLE_CITY = "GET_SINGLE_CITY";
+
+export const UPDATE_CITY = "UPDATE_CITY";
+
+// PRODUCT
+export const GET_PRODUCTS = "GET_PRODUCTS";
+
+export const DELETE_PRODUCT = "DELETE_PRODUCT";
+
+export const ADD_PRODUCT = "ADD_PRODUCT";
+
+export const GET_SINGLE_PRODUCT = "GET_SINGLE_PRODUCT";
+
+export const UPDATE_PRODUCT = "UPDATE_PRODUCT";
+
+// PRODUCT
+export const GET_ADMINS = "GET_ADMINS";
+
+export const DELETE_ADMIN = "DELETE_ADMIN";
+
+export const ADD_ADMIN = "ADD_ADMIN";
+
+export const GET_SINGLE_ADMIN = "GET_SINGLE_ADMIN";
+
+export const UPDATE_ADMIN = "UPDATE_ADMIN";
+
+// PRODUCT
+export const GET_BOOKINGS = "GET_BOOKINGS";
+
+export const DELETE_BOOKING = "DELETE_BOOKING";
+
+export const ADD_BOOKING = "ADD_BOOKING";
+
+export const GET_SINGLE_BOOKING = "GET_SINGLE_BOOKING";
+
+export const UPDATE_BOOKING = "UPDATE_BOOKING";
+
+// PRODUCT
+export const GET_USER_COMPLAINTS = "GET_USER_COMPLAINTS";
+
+export const DELETE_USER_COMPLAINT = "DELETE_USER_COMPLAINT";
+
+export const ADD_USER_COMPLAINT = "ADD_USER_COMPLAINT";
+
+export const GET_SINGLE_USER_COMPLAINT = "GET_SINGLE_USER_COMPLAINT";
+
+export const UPDATE_USER_COMPLAINT = "UPDATE_USER_COMPLAINT";
+
+// PRODUCT
+export const GET_USERS = "GET_USERS";
+
+export const DELETE_USER = "DELETE_USER";
+
+export const ADD_USER = "ADD_USER";
+
+export const GET_SINGLE_USER = "GET_SINGLE_USER";
+
+export const UPDATE_USER = "UPDATE_USER";
+
+// PRODUCT
+export const GET_USER_PROFILES = "GET_USER_PROFILES";
+
+export const DELETE_USER_PROFILE = "DELETE_USER_PROFILE";
+
+export const ADD_USER_PROFILE = "ADD_USER_PROFILE";
+
+export const GET_SINGLE_USER_PROFILE = "GET_SINGLE_USER_PROFILE";
+
+export const UPDATE_USER_PROFILE = "UPDATE_USER_PROFILE";
+
+//lender 
+export const ADD_LENDER = "ADD_LENDER";
+
+export const DELETE_LENDER = "DELETE_LENDER";
+
+export const GET_LENDER = "GET_LENDER";
+
+export const GET_SINGLE_LENDER = "GET_SINGLE_LENDER";
+
+export const UPDATE_LENDER = "UPDATE_LENDER";
+
+// PRODUCT
+export const GET_ADS = "GET_ADS";
+
+export const DELETE_AD = "DELETE_AD";
+
+export const ADD_AD = "ADD_AD";
+
+export const GET_SINGLE_AD = "GET_SINGLE_AD"; 
+
+export const UPDATE_AD = "UPDATE_AD";
+
+// PRODUCT
+export const GET_SUB_CATEGORY_ADS = "GET_SUB_CATEGORY_ADS";
+
+export const DELETE_SUB_CATEGORY_AD = "DELETE_SUB_CATEGORY_AD";
+
+export const ADD_SUB_CATEGORY_AD = "ADD_SUB_CATEGORY_AD";
+
+export const GET_SINGLE_SUB_CATEGORY_AD = "GET_SINGLE_SUB_CATEGORY_AD"; 
+
+export const UPDATE_SUB_CATEGORY_AD = "UPDATE_SUB_CATEGORY_AD";
+
+// PRODUCT
+export const GET_TESTIS = "GET_TESTIS";
+
+export const DELETE_TESTI = "DELETE_TESTI";
+
+export const ADD_TESTI = "ADD_TESTI";
+
+export const GET_SINGLE_TESTI = "GET_SINGLE_TESTI"; 
+
+export const UPDATE_TESTI = "UPDATE_TESTI";
+
+// PRODUCT
+export const GET_BLOGS = "GET_BLOGS";
+
+export const DELETE_BLOG = "DELETE_BLOG";
+
+export const ADD_BLOG = "ADD_BLOG";
+
+export const GET_SINGLE_BLOG = "GET_SINGLE_BLOG"; 
+
+export const UPDATE_BLOG = "UPDATE_BLOG";
+
+// contact
+export const GET_CONTACTS = "GET_CONTACTS";
+
+export const DELETE_CONTACT = "DELETE_CONTACT";
+
+export const ADD_CONTACT = "ADD_CONTACT";
+
+export const GET_SINGLE_CONTACT = "GET_SINGLE_CONTACT"; 
+
+export const UPDATE_CONTACT = "UPDATE_CONTACT";
+
+// Pending
+export const GET_PENDING_CATEGORY = "GET_PENDING_CATEGORY";
+
+export const GET_PENDING_SUB_CATEGORY = "GET_PENDING_SUB_CATEGORY";
+
+export const GET_PENDING_PRODUCT = "GET_PENDING_PRODUCT";
+
+// States
+export const GET_STATES = "GET_STATES";
+
+// Terms
+export const GET_TERMS = "GET_TERMS";
+
+export const DELETE_TERM = "DELETE_TERM";
+
+export const ADD_TERM = "ADD_TERM";
+
+export const GET_SINGLE_TERM = "GET_SINGLE_TERM"; 
+
+export const UPDATE_TERM = "UPDATE_TERM";
+
+// Terms
+export const GET_PRIVACYS = "GET_PRIVACYS";
+
+export const DELETE_PRIVACY = "DELETE_PRIVACY";
+
+export const ADD_PRIVACY = "ADD_PRIVACY";
+
+export const GET_SINGLE_PRIVACY = "GET_SINGLE_PRIVACY"; 
+
+export const UPDATE_PRIVACY = "UPDATE_PRIVACY";
+
+// slider
+export const GET_SLIDERS = "GET_SLIDERS";
+
+export const DELETE_SLIDER = "DELETE_SLIDER";
+
+export const ADD_SLIDER = "ADD_SLIDER";
+
+export const GET_SINGLE_SLIDER = "GET_SINGLE_SLIDER"; 
+
+export const UPDATE_SLIDER = "UPDATE_SLIDER";
+
+// PRODUCT_CLICK
+export const GET_PRODUCT_CLICKS = "GET_PRODUCT_CLICKS";
+
+export const DELETE_PRODUCT_CLICK = "DELETE_PRODUCT_CLICK";
+
+export const ADD_PRODUCT_CLICK = "ADD_PRODUCT_CLICK";
+
+export const GET_SINGLE_PRODUCT_CLICK = "GET_SINGLE_PRODUCT_CLICK"; 
+
+export const UPDATE_PRODUCT_CLICK = "UPDATE_PRODUCT_CLICK";
+
+// ABOUT
+export const GET_ABOUTS = "GET_ABOUTS";
+
+export const DELETE_ABOUT = "DELETE_ABOUT";
+
+export const ADD_ABOUT = "ADD_ABOUT";
+
+export const GET_SINGLE_ABOUT = "GET_SINGLE_ABOUT"; 
+
+export const UPDATE_ABOUT = "UPDATE_ABOUT";
+
+// Contact
+export const GET_CONTACTUSS = "GET_CONTACTUSS";
+
+export const DELETE_CONTACTUS = "DELETE_CONTACTUS";
+
+export const ADD_CONTACTUS = "ADD_CONTACTUS";
+
+export const GET_SINGLE_CONTACTUS = "GET_SINGLE_CONTACTUS"; 
+
+export const UPDATE_CONTACTUS = "UPDATE_CONTACTUS";
+
+// appp product
+export const GET_APPS = "GET_APPS";
+
+export const DELETE_APP = "DELETE_APP";
+
+export const ADD_APP = "ADD_APP";
+
+export const GET_SINGLE_APP = "GET_SINGLE_APP"; 
+
+export const UPDATE_APP = "UPDATE_APP";
+
+// decline
+export const GET_DECLINES = "GET_DECLINES";
+
+export const DELETE_DECLINE = "DELETE_DECLINE";
+
+export const ADD_DECLINE = "ADD_DECLINE";
+
+export const GET_SINGLE_DECLINE = "GET_SINGLE_DECLINE"; 
+
+export const UPDATE_DECLINE = "UPDATE_DECLINE";
+
+// decline
+export const GET_PENDING_CITYS = "GET_PENDING_CITYS";
+
+// Review
+export const GET_REVIEW = "GET_REVIEW";
+
+export const DELETE_REVIEW = "DELETE_REVIEW";
+
+export const ADD_REVIEW = "ADD_REVIEW";
+
+export const GET_SINGLE_REVIEW = "GET_SINGLE_REVIEW";
+
+export const UPDATE_REVIEW = "UPDATE_REVIEW";

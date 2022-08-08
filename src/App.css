@@ -1,0 +1,43 @@
+.action-button {
+  padding: 0.5rem 2rem;
+}
+
+.report_chart {
+  display: block;
+  width: 464px;
+  height: 232px;
+}
+
+.full_details>li {
+  list-style: none;
+  margin-bottom: 7px;
+  text-transform: capitalize;
+}
+
+.nav {
+  margin: 0 !important;
+}
+
+.count {
+  background: tomato;
+  padding: 5px;
+  border-radius: 20px;
+}
+
+.sidebar .nav.sub-menu {
+  padding: 0.25rem 0 0 2.07rem !important;
+}
+.paginationBttns{
+  display: flex !important;
+}
+.paginationBttns>li{
+  padding: 0.3rem 0.5rem !important;
+}
+.paginationBttns>li:nth-child(odd){
+  background: darkgray !important;
+  border-radius: 10px !important;
+}
+.multifeild{
+  display: flex;
+}
+
