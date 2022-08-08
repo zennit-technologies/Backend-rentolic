@@ -64,9 +64,11 @@ const ProductsList = () => {
         if (searchVal === "") {
             return data;
         } else if (
-            data.id == searchVal ||
-            data.name.toLowerCase().includes(searchVal.toLowerCase())
+            data.id == searchVal 
+            || data.category_name.toLowerCase().includes(searchVal.toLowerCase())
+            || data.name.toLowerCase().includes(searchVal.toLowerCase())
             || data.product_name.toLowerCase().includes(searchVal.toLowerCase())
+            || data.city_name.toLowerCase().includes(searchVal.toLowerCase())
             || data.status == searchVal
         ) {
             return data;
@@ -90,11 +92,11 @@ const ProductsList = () => {
                     {state.product_name.slice(0, 25)}...
                 </td>
                 <td>
-                    <a href={`https://rentolic.com/product/${state.product_name}/${state.id}`} target="_blank" className="action-button badge badge-success">View</a>
+                    <label className="badge badge-info">{state.status_name}</label>
                 </td>
                 <td>
-                    <label className="badge badge-info">{state.status_name}</label>
-                    <Link to={`/product-status/edit/${state.id}`} class="action-button badge badge-success">Edit</Link>
+                    <a href={`https://www.rentolic.com/product/${state.product_name}/${state.id}`} target="_blank" className="action-button badge badge-success">View</a>
+                    {/* <Link to={`/product-status/edit/${state.id}`} class="action-button badge badge-success">Edit</Link> */}
                     <button
                         className="action-button badge badge-danger"
                         onClick={() => {
@@ -110,8 +112,10 @@ const ProductsList = () => {
             return val;
         } else if (
             val.id == searchVal
+            || val.category_name.toLowerCase().includes(searchVal.toLowerCase())
             || val.name.toLowerCase().includes(searchVal.toLowerCase())
             || val.product_name.toLowerCase().includes(searchVal.toLowerCase())
+            || val.city_name.toLowerCase().includes(searchVal.toLowerCase())
             || val.status == searchVal
         ) {
             return val;

@@ -59,7 +59,11 @@ const ListTestimonials = () => {
         if (searchVal === "") {
             return data;
         } else if (
-            data.id == searchVal || data.name.toLowerCase().includes(searchVal.toLowerCase()) || data.status == searchVal
+            data.id == searchVal 
+            || data.name.toLowerCase().includes(searchVal.toLowerCase()) 
+            || data.username.toLowerCase().includes(searchVal.toLowerCase()) 
+            || data.review.toLowerCase().includes(searchVal.toLowerCase()) 
+            || data.status == searchVal
         ) {
             return data;
         }
@@ -97,7 +101,11 @@ const ListTestimonials = () => {
         if (searchVal === "") {
             return val;
         } else if (
-            val.id == searchVal || val.name.toLowerCase().includes(searchVal.toLowerCase()) || val.status == searchVal
+            val.id == searchVal 
+            || val.name.toLowerCase().includes(searchVal.toLowerCase()) 
+            || val.username.toLowerCase().includes(searchVal.toLowerCase()) 
+            || val.review.toLowerCase().includes(searchVal.toLowerCase()) 
+            || val.status == searchVal
         ) {
             return val;
         }

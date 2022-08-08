@@ -102,7 +102,13 @@ const ReviewProductScreen = () => {
         if (searchVal === "") {
             return val;
         } else if (
-            val.id == searchVal || val.name.toLowerCase().includes(searchVal.toLowerCase()) || val.status == searchVal
+            val.id == searchVal 
+            || val.name.toLowerCase().includes(searchVal.toLowerCase()) 
+            || val.review.toLowerCase().includes(searchVal.toLowerCase()) 
+            || val.product_name.toLowerCase().includes(searchVal.toLowerCase()) 
+            || val.email.toLowerCase().includes(searchVal.toLowerCase()) 
+            
+            || val.status == searchVal
         ) {
             return val;
         }
